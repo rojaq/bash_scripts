@@ -1,0 +1,577 @@
+Mar 23 21:38:39 jacek-VirtualBox mtp-probe: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1"
+Mar 23 21:38:39 jacek-VirtualBox mtp-probe: bus: 1, device: 2 was not an MTP device
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] Linux version 5.15.0-67-generic (buildd@lcy02-amd64-116) (gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #74-Ubuntu SMP Wed Feb 22 14:14:39 UTC 2023 (Ubuntu 5.15.0-67.74-generic 5.15.85)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-67-generic root=UUID=7dd286b3-f461-4901-bf1f-acd5d8a858f3 ro quiet splash
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000]   AMD AuthenticAMD
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000]   Hygon HygonGenuine
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000]   Centaur CentaurHauls
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000]   zhaoxin   Shanghai  
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] x86/fpu: x87 FPU will use FXSAVE
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] signal: max sigframe size: 1440
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-provided physical RAM map:
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] SMBIOS 2.5 present.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] Hypervisor detected: KVM
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000000] kvm-clock: cpu 0, msr 5b001001, primary cpu clock
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000001] kvm-clock: using sched offset of 5870150111 cycles
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000002] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.000004] tsc: Detected 2495.998 MHz processor
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001242] last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001275] Disabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001275] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001279] CPU MTRRs all blank - virtualized system.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001280] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001282] last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001328] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001486] RAMDISK: [mem 0x28cd1000-0x3065ffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001490] ACPI: Early table checksum verification disabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001493] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001496] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001501] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001505] ACPI: DSDT 0x00000000DFFF0470 002325 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001508] ACPI: FACS 0x00000000DFFF0200 000040
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001510] ACPI: FACS 0x00000000DFFF0200 000040
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001513] ACPI: APIC 0x00000000DFFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001515] ACPI: SSDT 0x00000000DFFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001517] ACPI: Reserving FACP table memory at [mem 0xdfff00f0-0xdfff01e3]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001518] ACPI: Reserving DSDT table memory at [mem 0xdfff0470-0xdfff2794]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001519] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001520] ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001520] ACPI: Reserving APIC table memory at [mem 0xdfff0240-0xdfff0293]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.001521] ACPI: Reserving SSDT table memory at [mem 0xdfff02a0-0xdfff046b]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002110] No NUMA configuration found
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002111] Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002115] NODE_DATA(0) allocated [mem 0x11ffd2000-0x11fffbfff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002616] Zone ranges:
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002616]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002618]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002619]   Normal   [mem 0x0000000100000000-0x000000011fffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002620]   Device   empty
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002621] Movable zone start for each node
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002622] Early memory node ranges
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002622]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002623]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002624]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002625] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002648] On node 0, zone DMA: 1 pages in unavailable ranges
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.002996] On node 0, zone DMA: 97 pages in unavailable ranges
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.092943] On node 0, zone Normal: 16 pages in unavailable ranges
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.093916] ACPI: PM-Timer IO Port: 0x4008
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094071] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094074] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094075] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094078] ACPI: Using ACPI (MADT) for SMP configuration information
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094096] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094151] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094153] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094153] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094154] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094155] PM: hibernation: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094155] PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094156] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094156] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094157] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094157] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094158] PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094159] [mem 0xe0000000-0xfebfffff] available for PCI devices
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094159] Booting paravirtualized kernel on KVM
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094161] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.094165] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.097045] percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u2097152
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.097101] kvm-guest: PV spinlocks disabled, single CPU
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.097105] Built 1 zonelists, mobility grouping on.  Total pages: 1031920
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.097106] Policy zone: Normal
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.097107] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-67-generic root=UUID=7dd286b3-f461-4901-bf1f-acd5d8a858f3 ro quiet splash
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.097141] Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-5.15.0-67-generic", will be passed to user space.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.102952] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.105814] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.105853] mem auto-init: stack:off, heap alloc:on, heap free:off
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.158218] Memory: 3884896K/4193848K available (16393K kernel code, 4379K rwdata, 10820K rodata, 3240K init, 6556K bss, 308692K reserved, 0K cma-reserved)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.158517] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.158549] ftrace: allocating 50555 entries in 198 pages
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177386] ftrace: allocated 198 pages with 4 groups
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177913] rcu: Hierarchical RCU implementation.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177914] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177915] 	Rude variant of Tasks RCU enabled.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177915] 	Tracing variant of Tasks RCU enabled.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177916] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.177916] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.181224] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.208007] Console: colour VGA+ 80x25
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.208014] printk: console [tty0] enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.208038] ACPI: Core revision 20210730
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.208207] APIC: Switch to symmetric I/O mode setup
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.216829] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217017] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x23fa754787d, max_idle_ns: 440795210092 ns
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217022] Calibrating delay loop (skipped) preset value.. 4991.99 BogoMIPS (lpj=9983992)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217025] pid_max: default: 32768 minimum: 301
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217057] LSM: Security Framework initializing
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217065] landlock: Up and running.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217066] Yama: becoming mindful.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217166] AppArmor: AppArmor initialized
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217303] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.217399] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218512] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218513] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218516] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218518] Spectre V2 : Mitigation: Enhanced IBRS
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218518] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218519] Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218519] RETBleed: Mitigation: Enhanced IBRS
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.218520] Speculative Store Bypass: Vulnerable
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.225019] Freeing SMP alternatives memory: 44K
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.341379] APIC calibration not consistent with PM-Timer: 103ms instead of 100ms
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.341381] APIC delta adjusted to PM-Timer: 6293567 (6529853)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.341565] smpboot: CPU0: 12th Gen Intel(R) Core(TM) i5-12400 (family: 0x6, model: 0x97, stepping: 0x2)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342006] Performance Events: unsupported p6 CPU model 151 no PMU driver, software events only.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342048] rcu: Hierarchical SRCU implementation.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342586] NMI watchdog: Perf NMI watchdog permanently disabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342663] smp: Bringing up secondary CPUs ...
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342664] smp: Brought up 1 node, 1 CPU
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342665] smpboot: Max logical packages: 1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342665] smpboot: Total of 1 processors activated (4991.99 BogoMIPS)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342924] devtmpfs: initialized
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.342977] x86/mm: Memory block size: 128MB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.343516] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.343544] futex hash table entries: 256 (order: 2, 16384 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.343590] pinctrl core: initialized pinctrl subsystem
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.343866] PM: RTC time: 20:38:34, date: 2023-03-23
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.344102] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.344921] DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.344956] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.344992] DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.344997] audit: initializing netlink subsys (disabled)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] thermal_sys: Registered thermal governor 'fair_share'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] thermal_sys: Registered thermal governor 'bang_bang'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] thermal_sys: Registered thermal governor 'step_wise'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] thermal_sys: Registered thermal governor 'user_space'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] thermal_sys: Registered thermal governor 'power_allocator'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] EISA bus registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] cpuidle: using governor ladder
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345019] cpuidle: using governor menu
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345034] ACPI: bus type PCI registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345035] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.345302] PCI: Using configuration type 1 for base access
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.346416] Kprobes globally optimized
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.346462] audit: type=2000 audit(1679603921.262:1): state=initialized audit_enabled=0 res=1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.346582] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347910] ACPI: Added _OSI(Module Device)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347911] ACPI: Added _OSI(Processor Device)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347912] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347912] ACPI: Added _OSI(Processor Aggregator Device)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347913] ACPI: Added _OSI(Linux-Dell-Video)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347913] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.347914] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.349386] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.350812] ACPI: Interpreter enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.350818] ACPI: PM: (supports S0 S5)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.350819] ACPI: Using IOAPIC for interrupt routing
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.351013] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.351014] PCI: Using E820 reservations for host bridge windows
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.351088] ACPI: Enabled 2 GPEs in block 00 to 07
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.355383] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.355387] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.355802] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.355806] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356134] PCI host bridge to bus 0000:00
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356135] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356136] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356137] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356138] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356139] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.356506] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.359440] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.360638] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.361285] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.361546] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.361547] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.361548] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.361549] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.364048] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.364650] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.365140] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe1ffffff pref]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.365602] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.367530] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.369952] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.370183] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.370417] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.373798] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.374164] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.374388] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.374616] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.377855] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.378072] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.378180] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.381111] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.381340] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.384496] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.385442] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.385459] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.397983] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.398211] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.398328] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.398445] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.398566] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.398682] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.398802] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.437559] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.437823] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.437917] ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438011] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438221] iommu: Default domain type: Translated 
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438222] iommu: DMA domain TLB invalidation policy: lazy mode 
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438407] SCSI subsystem initialized
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438484] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438485] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438487] pci 0000:00:02.0: vgaarb: bridge control possible
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438488] vgaarb: loaded
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438528] ACPI: bus type USB registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438534] usbcore: registered new interface driver usbfs
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438546] usbcore: registered new interface driver hub
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438549] usbcore: registered new device driver usb
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438565] pps_core: LinuxPPS API ver. 1 registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438566] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438567] PTP clock support registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.438614] EDAC MC: Ver: 3.0.0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.439252] NetLabel: Initializing
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.439253] NetLabel:  domain hash size = 128
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.439253] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.439289] NetLabel:  unlabeled traffic allowed by default
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.439312] PCI: Using ACPI for IRQ routing
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.440657] clocksource: Switched to clocksource kvm-clock
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.458441] VFS: Disk quotas dquot_6.6.0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.458441] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.458441] AppArmor: AppArmor Filesystem Enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.458441] pnp: PnP ACPI init
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.461725] pnp: PnP ACPI: found 2 devices
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.470582] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.470644] NET: Registered PF_INET protocol family
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.471404] IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.478231] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.478607] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.478981] TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479744] TCP bind hash table entries: 32768 (order: 7, 524288 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479763] TCP: Hash tables configured (established 32768 bind 32768)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] NET: Registered PF_UNIX/PF_LOCAL protocol family
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] NET: Registered PF_XDP protocol family
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.479918] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.481069] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.481088] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.482374] PCI: CLS 0 bytes, default 64
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.482423] Trying to unpack rootfs image as initramfs...
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.486563] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.486564] software IO TLB: mapped [mem 0x00000000dbff0000-0x00000000dfff0000] (64MB)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.486617] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x23fa754787d, max_idle_ns: 440795210092 ns
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.486624] clocksource: Switched to clocksource tsc
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.486638] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.497812] Initialise system trusted keyrings
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.497826] Key type blacklist registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.497875] workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.499296] zbud: loaded
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.499536] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.499665] fuse: init (API version 7.34)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.499785] integrity: Platform Keyring initialized
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.501422] Key type asymmetric registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.501422] Asymmetric key parser 'x509' registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.501422] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.501422] io scheduler mq-deadline registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.501422] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.505405] ACPI: AC: AC Adapter [AC] (on-line)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.505443] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.505459] ACPI: button: Power Button [PWRF]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.505618] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.505634] ACPI: button: Sleep Button [SLPF]
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.505881] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.507294] Linux agpgart interface v0.103
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.509258] loop: module loaded
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.520137] scsi host0: ata_piix
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.520319] scsi host1: ata_piix
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.520352] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.520353] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.520451] tun: Universal TUN/TAP device driver, 1.6
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.521467] PPP generic driver version 2.4.2
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.521512] VFIO - User Level meta-driver version: 0.3
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522098] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522100] ehci-pci: EHCI PCI platform driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522104] ehci-platform: EHCI generic platform driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522106] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522107] ohci-pci: OHCI PCI platform driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522668] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522672] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.522912] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585488] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.15
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585491] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585492] usb usb1: Product: OHCI PCI host controller
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585493] usb usb1: Manufacturer: Linux 5.15.0-67-generic ohci_hcd
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585494] usb usb1: SerialNumber: 0000:00:06.0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585568] hub 1-0:1.0: USB hub found
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.585603] hub 1-0:1.0: 12 ports detected
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.586248] ohci-platform: OHCI generic platform driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.586255] uhci_hcd: USB Universal Host Controller Interface driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.586351] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.587853] serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.587857] serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.594051] mousedev: PS/2 mouse device common for all mice
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.594787] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596399] rtc_cmos rtc_cmos: registered as rtc0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596569] rtc_cmos rtc_cmos: setting system clock to 2023-03-23T20:38:34 UTC (1679603914)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596585] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596589] i2c_dev: i2c /dev entries driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596599] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596623] device-mapper: uevent: version 1.0.3
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596673] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596682] platform eisa.0: Probing EISA bus 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596683] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596684] platform eisa.0: Cannot allocate resource for EISA slot 1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596685] platform eisa.0: Cannot allocate resource for EISA slot 2
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596685] platform eisa.0: Cannot allocate resource for EISA slot 3
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596686] platform eisa.0: Cannot allocate resource for EISA slot 4
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596687] platform eisa.0: Cannot allocate resource for EISA slot 5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596687] platform eisa.0: Cannot allocate resource for EISA slot 6
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596688] platform eisa.0: Cannot allocate resource for EISA slot 7
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596688] platform eisa.0: Cannot allocate resource for EISA slot 8
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596689] platform eisa.0: EISA: Detected 0 cards
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596690] intel_pstate: CPU model not supported
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596702] ledtrig-cpu: registered to indicate activity on CPUs
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596747] drop_monitor: Initializing network drop monitor service
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.596902] NET: Registered PF_INET6 protocol family
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.699978] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.701954] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.735396] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.735399] cdrom: Uniform CD-ROM driver Revision: 3.20
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.756620] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    0.813045] Freeing initrd memory: 124476K
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.497976] Segment Routing with IPv6
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.497988] In-situ OAM (IOAM) with IPv6
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498004] NET: Registered PF_PACKET protocol family
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498027] Key type dns_resolver registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498291] IPI shorthand broadcast: enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498297] sched_clock: Marking stable (1469605666, 27516072)->(1505801490, -8679752)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498375] registered taskstats version 1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498402] Loading compiled-in X.509 certificates
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.498747] Loaded X.509 cert 'Build time autogenerated kernel key: 4919d01b97f8f8ece5362917619ef42f1d265e85'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499036] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499340] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499341] blacklist: Loading compiled-in revocation X.509 certificates
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499355] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499368] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499377] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499386] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499394] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499404] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499413] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499420] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499485] zswap: loaded using pool lzo/zbud
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499572] Key type .fscrypt registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.499573] Key type fscrypt-provisioning registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502194] Key type encrypted registered
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502197] AppArmor: AppArmor sha1 policy hashing enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502203] ima: No TPM chip found, activating TPM-bypass!
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502208] Loading compiled-in module X.509 certificates
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502543] Loaded X.509 cert 'Build time autogenerated kernel key: 4919d01b97f8f8ece5362917619ef42f1d265e85'
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502544] ima: Allocated hash algorithm: sha1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502548] ima: No architecture policies found
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502572] evm: Initialising EVM extended attributes:
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502572] evm: security.selinux
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502573] evm: security.SMACK64
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502573] evm: security.SMACK64EXEC
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502574] evm: security.SMACK64TRANSMUTE
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502574] evm: security.SMACK64MMAP
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502574] evm: security.apparmor
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502575] evm: security.ima
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502575] evm: security.capability
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502576] evm: HMAC attrs: 0x1
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502740] PM:   Magic number: 15:413:650
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502750] tty ttyprintk: hash matches
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.502843] RAS: Correctable Errors collector initialized.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.503474] Freeing unused decrypted memory: 2036K
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.503705] Freeing unused kernel image (initmem) memory: 3240K
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.509124] Write protecting the kernel read-only data: 30720k
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.509305] Freeing unused kernel image (text/rodata gap) memory: 2036K
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.509409] Freeing unused kernel image (rodata/data gap) memory: 1468K
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.515316] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.515321] Run /init as init process
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.644006] e1000: Intel(R) PRO/1000 Network Driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.644008] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.645159] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.646607] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.646945] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.646948] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.661122] scsi host2: ahci
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.661258] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.667464] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.667552] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.722590] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.871209] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.978080] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.978491] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.978494] ata3.00: 62914560 sectors, multi 128: LBA48 NCQ (depth 32)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.983899] ata3.00: configured for UDMA/133
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.983959] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.984106] sd 2:0:0:0: [sda] 62914560 512-byte logical blocks: (32.2 GB/30.0 GiB)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.984110] sd 2:0:0:0: [sda] Write Protect is off
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.984115] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    1.984289] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.029965]  sda: sda1 sda2 sda3
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.047275] sd 2:0:0:0: [sda] Attached SCSI disk
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.064279] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.064283] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.064285] usb 1-1: Product: USB Tablet
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.064286] usb 1-1: Manufacturer: VirtualBox
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.067320] vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.068929] Console: switching to colour dummy device 80x25
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.073849] hid: raw HID events driver (C) Jiri Kosina
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.086756] [TTM] Zone  kernel: Available graphics memory: 2009228 KiB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.086953] vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.086962] vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 32768 kiB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.086997] vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087014] vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087155] vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 20480 kB, FIFO = 2048 kB, surface = 503808 kB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087157] vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 0 kB, max mob pages = 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087159] vmwgfx 0000:00:02.0: [drm] Capabilities: cursor, cursor bypass 2, alpha cursor, 3D, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, 
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087160] vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087161] vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087161] vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 20480 kiB
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087687] usbcore: registered new interface driver usbhid
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.087688] usbhid: USB HID core driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.088821] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.088953] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.131672] vmwgfx 0000:00:02.0: [drm] Screen Object display unit initialized
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.132325] vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.132341] vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.153212] fbcon: svgadrmfb (fb0) is primary device
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.160439] Console: switching to colour frame buffer device 100x37
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.162198] [drm] Initialized vmwgfx 2.19.0 20210722 for 0000:00:02.0 on minor 0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.189784] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:2c:98:0f
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.189789] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.190705] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.340973] random: lvm: uninitialized urandom read (4 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.363780] random: lvm: uninitialized urandom read (4 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.462336] raid6: sse2x4   gen() 28271 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.537589] raid6: sse2x4   xor()  7636 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.613123] raid6: sse2x2   gen() 31926 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.689063] raid6: sse2x2   xor() 18709 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.763638] raid6: sse2x1   gen() 25401 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.838283] raid6: sse2x1   xor() 16803 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.838285] raid6: using algorithm sse2x2 gen() 31926 MB/s
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.838285] raid6: .... xor() 18709 MB/s, rmw enabled
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.838287] raid6: using ssse3x2 recovery algorithm
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.840899] xor: measuring software checksum speed
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.841115]    prefetch64-sse  : 46266 MB/sec
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.841366]    generic_sse     : 41498 MB/sec
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.841367] xor: using function: prefetch64-sse (46266 MB/sec)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    2.858036] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.011825] EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.396366] random: lvmconfig: uninitialized urandom read (4 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.492670] random: systemd: uninitialized urandom read (16 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.493135] random: systemd: uninitialized urandom read (16 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.546607] EXT4-fs (sda3): re-mounted. Opts: errors=remount-ro. Quota mode: none.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.559561] Adding 1435216k swap on /swapfile.  Priority:-2 extents:5 across:1467984k FS
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.591518] lp: driver loaded but no devices found
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.602729] ppdev: user-space parallel port driver
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    3.642492] systemd-journald[304]: Received client request to flush runtime journal.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.124946] vboxguest: loading out-of-tree module taints kernel.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.125055] vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.174852] vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.175083] Host supports full mouse state reporting, switching to extended mouse integration protocol
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.175107] input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.210811] vboxguest: Successfully loaded version 6.1.42 r155177
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.210832] vboxguest: misc device minor 123, IRQ 20, I/O port d040, MMIO at 00000000f0400000 (size 0x400000)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.374232] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.434341] random: systemd: uninitialized urandom read (16 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.434350] random: systemd: uninitialized urandom read (16 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.471050] random: systemd: uninitialized urandom read (16 bytes read)
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.568578] intel_rapl_msr: PL4 support detected.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.685114] random: crng init done
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    4.685116] random: 197 urandom warning(s) missed due to ratelimiting
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.026754] snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.109473] znvpair: module license 'CDDL' taints kernel.
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.109475] Disabling lock debugging due to kernel taint
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.220027] ZFS: Loaded module v2.1.4-0ubuntu0.1, ZFS pool version 5000, ZFS filesystem version 5
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.341493] audit: type=1400 audit(1679603919.240:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=535 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.341496] audit: type=1400 audit(1679603919.240:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=535 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.361224] audit: type=1400 audit(1679603919.260:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=543 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.365337] audit: type=1400 audit(1679603919.264:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=544 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.365340] audit: type=1400 audit(1679603919.264:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=544 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.378786] audit: type=1400 audit(1679603919.276:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=545 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.378790] audit: type=1400 audit(1679603919.276:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=545 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.378792] audit: type=1400 audit(1679603919.276:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=545 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.378794] audit: type=1400 audit(1679603919.276:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=545 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.386788] audit: type=1400 audit(1679603919.288:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=546 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.386791] audit: type=1400 audit(1679603919.288:12): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=546 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox kernel: [    5.386792] audit: type=1400 audit(1679603919.288:13): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=546 comm="apparmor_parser"
+Mar 23 21:38:39 jacek-VirtualBox rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Mar 23 21:38:39 jacek-VirtualBox udisksd[584]: udisks daemon version 2.9.4 starting
+Mar 23 21:38:39 jacek-VirtualBox rsyslogd: rsyslogd's groupid changed to 111
+Mar 23 21:38:39 jacek-VirtualBox rsyslogd: rsyslogd's userid changed to 104
+Mar 23 21:38:39 jacek-VirtualBox rsyslogd: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="581" x-info="https://www.rsyslog.com"] start
+Mar 23 21:38:39 jacek-VirtualBox udisksd[584]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Mar 23 21:38:40 jacek-VirtualBox udisksd[584]: Failed to load the 'mdraid' libblockdev plugin
+Mar 23 21:38:40 jacek-VirtualBox kernel: [    6.662270] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 23 21:38:40 jacek-VirtualBox udisksd[584]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar 23 21:38:40 jacek-VirtualBox kernel: [    6.682880] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Mar 23 21:38:41 jacek-VirtualBox kernel: [    7.694435] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Mar 23 21:38:41 jacek-VirtualBox kernel: [    7.696564] Bridge firewalling registered
+Mar 23 21:38:41 jacek-VirtualBox kernel: [    7.926969] Initializing XFRM netlink socket
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.774745] vboxvideo: loading version 6.1.42 r155177
+Mar 23 21:38:42 jacek-VirtualBox vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.835932] 20:38:42.738211 main     VBoxService 6.1.42 r155177 (verbosity: 0) linux.amd64 (Jan 11 2023 19:12:07) release log
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.835932] 20:38:42.738213 main     Log opened 2023-03-23T20:38:42.738207000Z
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.836214] 20:38:42.738529 main     OS Product: Linux
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.836235] 20:38:42.738554 main     OS Release: 5.15.0-67-generic
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.836276] 20:38:42.738575 main     OS Version: #74-Ubuntu SMP Wed Feb 22 14:14:39 UTC 2023
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.836981] 20:38:42.739284 main     Executable: /opt/VBoxGuestAdditions-6.1.42/sbin/VBoxService
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.836981] 20:38:42.739285 main     Process ID: 1235
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.836981] 20:38:42.739285 main     Package type: LINUX_64BITS_GENERIC
+Mar 23 21:38:42 jacek-VirtualBox vboxadd-service.sh: VirtualBox Guest Addition service started.
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.844215] 20:38:42.746518 main     6.1.42 r155177 started. Verbose level = 0
+Mar 23 21:38:42 jacek-VirtualBox kernel: [    8.848979] 20:38:42.751278 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: Disabling timer-based scheduling because running inside a VM.
+Mar 23 21:38:43 jacek-VirtualBox pulseaudio[1306]: Disabling timer-based scheduling because running inside a VM.
+Mar 23 21:38:46 jacek-VirtualBox clock-applet[1678]: Negative content width -7 (allocation 1, extents 4x4) while allocating gadget (node button, owner GtkToggleButton)
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MateXAppStatusAppletFactory[1676]: /usr/libexec/xapps/mate-xapp-status-applet.py:322: DeprecationWarning: MatePanelApplet.Applet.set_background_widget is deprecated
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MateXAppStatusAppletFactory[1676]:   self.applet.set_background_widget(self.applet)
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MateXAppStatusAppletFactory[1676]: /usr/libexec/xapps/mate-xapp-status-applet.py:342: DeprecationWarning: Gtk.ActionGroup.set_translation_domain is deprecated
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MateXAppStatusAppletFactory[1676]:   group.set_translation_domain("xapp")
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MateXAppStatusAppletFactory[1676]: /usr/libexec/xapps/mate-xapp-status-applet.py:350: DeprecationWarning: Gtk.ActionGroup.add_action is deprecated
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MateXAppStatusAppletFactory[1676]:   group.add_action(about_action)
+Mar 23 21:38:47 jacek-VirtualBox mate-xapp-statu[1676]: gtk_widget_size_allocate(): attempt to allocate widget with width -3 and height 27
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1672]: /usr/lib/linuxmint/mintMenu/mintMenu.py:498: DeprecationWarning: MatePanelApplet.Applet.set_background_widget is deprecated
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1672]:   self.applet.set_background_widget(self.applet)
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1672]: /usr/lib/linuxmint/mintMenu/mintMenu.py:176: DeprecationWarning: Gtk.Alignment.new is deprecated
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1672]:   Align1 = Gtk.Alignment.new(0, 0, 0, 0)
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1672]: /usr/lib/linuxmint/mintMenu/mintMenu.py:177: DeprecationWarning: Gtk.Alignment.set_padding is deprecated
+Mar 23 21:38:47 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1672]:   Align1.set_padding(10, 5, 10, 0)
+Mar 23 21:38:48 jacek-VirtualBox mate-screensave[1886]: screensaver already running in this session
+Mar 23 21:38:49 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1907]: #015Reading package lists... 0%#015#015Reading package lists... 100%#015#015Reading package lists... Done
+Mar 23 21:38:49 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1907]: #015Building dependency tree... 0%#015#015Building dependency tree... 0%#015#015Building dependency tree... 50%#015#015Building dependency tree... 50%#015#015Building dependency tree... Done
+Mar 23 21:38:49 jacek-VirtualBox org.mate.panel.applet.MintMenuAppletFactory[1907]: #015Reading state information... 0% #015#015Reading state information... 1%#015#015Reading state information... Done
