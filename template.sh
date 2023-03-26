@@ -2,6 +2,7 @@
 set -e
 read -p "Type in the name of the script: " NAME
 read -p "Where to save it? " LOC
+DATE=$(date +"%x %r %Z")
 function write_basic()
 {
 	echo "#!/bin/bash" >> ${NAME}
