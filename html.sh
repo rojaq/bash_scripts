@@ -1,5 +1,6 @@
 #!/bin/bash
 # sysinfo_page - A script to produce a html page
+
 #VARIABLES
 title="My System Information"
 RIGHT_NOW="$(date +"%x %r %Z")"
@@ -7,11 +8,25 @@ TIME_STAMP="Last updated on $RIGHT_NOW by $USER"
 
 ##### Functions
 
-system_info()
-{
- # Temporary function stub
-    echo "function system_info"
-}
+system_info() {
+    # Find any release files in /etc The release files contain the name of the vendor and the version of the distribution. They are located in the /etc directory. To detect them, we perform an ls command and throw away all of its output. We are only interested in the exit status. It will be true if any files are found.
+
+    if ls /etc/*release 1>/dev/null 2>&1; then
+        echo "<h2>System release info</h2>"
+        echo "<pre>"
+        for i in /etc/*release; do
+
+            # Since we can't be sure of the
+            # length of the file, only
+            # display the first line.
+
+            head -n 1 "$i"
+        done
+        uname -orp
+        echo "</pre>"
+    fi
+
+}   # end of system_info
 
 
 show_uptime()
@@ -32,30 +47,97 @@ drive_space()
 }
 
 
-home_space()
-{
+home_space() {
     echo "<h2>Home directory space by user</h2>"
     echo "<pre>"
-    echo "Bytes Directory"
-    du -s /home/* | sort -nr
+    format="%8s%10s%10s   %-s\n"
+    printf "$format" "Dirs" "Files" "Blocks" "Directory"
+    printf "$format" "----" "-----" "------" "---------"
+    if [ $(id -u) = "0" ]; then
+        dir_list="/home/*"
+    else
+        dir_list=$HOME
+    fi
+    for home_dir in $dir_list; do
+        total_dirs=$(find $home_dir -type d | wc -l)
+        total_files=$(find $home_dir -type f | wc -l)
+        total_blocks=$(du -s $home_dir)
+        printf "$format" "$total_dirs" "$total_files" "$total_blocks"
+    done
     echo "</pre>"
+
+}   # end of home_space
+
+write_page()
+{
+    cat <<- _EOF_
+    <html>
+        <head>
+        <title>$TITLE</title>
+        </head>
+        <body>
+        <h1>$TITLE</h1>
+        <p>$TIME_STAMP</p>
+        $(system_info)
+        $(show_uptime)
+        $(drive_space)
+        $(home_space)
+        </body>
+    </html>
+_EOF_
+
 }
 
-#MAIN
-cat <<- _EOF_
-<html>
-<head>
-    <title>
-    $title $HOSTNAME
-    </title>
-</head>
-  <body>
-      <h1>$title</h1>
-      <p>$TIME_STAMP</p>
-      $(system_info)
-      $(show_uptime)
-      $(drive_space)
-      $(home_space)
-  </body>
-</html>
-_EOF_
+usage()
+{
+    echo "usage: sysinfo_page [[[-f file ] [-i]] | [-h]]"
+}
+
+
+##### Main
+
+interactive=
+filename=~/sysinfo_page.html
+
+while [ "$1" != "" ]; do
+    case $1 in
+        -f | --file )           shift
+                                filename=$1
+                                ;;
+        -i | --interactive )    interactive=1
+                                ;;
+        -h | --help )           usage
+                                exit
+                                ;;
+        * )                     usage
+                                exit 1
+    esac
+    shift
+done
+
+
+# Test code to verify command line processing
+
+if [ "$interactive" = "1" ]; then
+
+    response=
+
+    read -p "Enter name of output file [$filename] > " response
+    if [ -n "$response" ]; then
+        filename="$response"
+    fi
+
+    if [ -f $filename ]; then
+        echo -n "Output file exists. Overwrite? (y/n) > "
+        read response
+        if [ "$response" != "y" ]; then
+            echo "Exiting program."
+            exit 1
+        fi
+    fi
+fi
+
+
+# Write page (comment out until testing is complete)
+
+# write_page > $filename
