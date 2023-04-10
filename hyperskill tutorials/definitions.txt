@@ -1,0 +1,5 @@
+whq_to_eg 11
+wh_to_wh 20
+what_to_ever 20
+miles_to_km 1.6
+test_to_test 20
